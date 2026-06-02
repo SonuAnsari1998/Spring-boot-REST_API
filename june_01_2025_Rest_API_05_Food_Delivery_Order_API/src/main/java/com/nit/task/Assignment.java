@@ -1,19 +1,38 @@
-/*🧪 5. 🍔 Food Delivery Order API
+/*1. 🏫 Employee Management API
+june_02_2025_Rest_API_05_Employee_Management_API
 Scenario
-
-Create a REST API for a food delivery app to place and update orders.
+A company wants a REST API to manage employee details.
 
 Requirements
-Base URL: /orders
+Base URL: /employees
+
 APIs:
-GET /orders → “Orders fetched”
-POST /orders/place → Accept order details → “Order placed successfully”
-PUT /orders/update → Accept updated order → “Order updated successfully”
+
+GET /employees → “Employee list fetched”
+
+POST /employees/add → Accept employee details → “Employee added successfully”
+
+PUT /employees/update → Accept updated employee details → “Employee updated successfully”
+
+DELETE /employees/delete → Accept employee id details → “Employee deleted successfully”
+
+
+Model Fields:
+
+employeeId
+
+employeeName
+
+department
+
+salary
+
+
 RequestBody Example
+
 {
-  "orderId": 501,
-  "customerName": "Sita",
-  "item": "Pizza",
-  "quantity": 2,
-  "address": "Hyderabad"
+  "employeeId": 101,
+  "employeeName": "Arun",
+  "department": "IT",
+  "salary": 45000
 }*/
