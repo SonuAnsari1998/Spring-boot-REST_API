@@ -1,5 +1,5 @@
 /*2. ✈️ Flight Booking API
-Scenario
+Scenario  
 An airline company wants APIs to manage flight bookings.
 
 Requirements
