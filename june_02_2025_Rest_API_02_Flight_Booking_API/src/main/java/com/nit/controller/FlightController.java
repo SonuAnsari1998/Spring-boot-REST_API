@@ -14,7 +14,7 @@ import com.nit.model.Flight;
 @RequestMapping("/flight")
 public class FlightController {
 
-	@GetMapping
+	@GetMapping 
 	public String fetchFlight() {
 		return "Flight details fetched";
 	}
